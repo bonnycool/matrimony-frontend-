@@ -6,7 +6,7 @@ export default function HomePage() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50 p-6">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50  px-4 sm:px-6 text-center">
       <h1 className="text-4xl font-bold mb-4 text-blue-700">Welcome to German Matrimony</h1>
       <p className="mb-8 text-gray-600 text-center max-w-md">
         A trusted platform for residents with valid permits to find meaningful connections.
