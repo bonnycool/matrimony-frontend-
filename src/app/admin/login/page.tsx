@@ -1,6 +1,6 @@
  'use client';
 
-import React, { useState } from 'react';
+import React, { JSX, useState } from 'react';
 
 export default function AdminLoginPage(): JSX.Element {
   const [email, setEmail] = useState('');
